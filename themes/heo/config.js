@@ -5,25 +5,25 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://jinso365.top' },
-    { title: '访问文档中心获取更多帮助', url: 'https://jinso365.top' }
+    { title: '💙 今天你会有好事发生 💙', url: 'https://jinso365.top' },
+    { title: 'Something good will happen to you today', url: 'https://jinso365.top' }
   ],
 
   // 英雄区(首页顶部大卡)
-  HERO_TITLE_1: '分享编程',
-  HERO_TITLE_2: '与思维认知',
-  HERO_TITLE_3: 'JINSO365.TOP',
-  HERO_TITLE_4: '新版上线',
+  HERO_TITLE_1: 'Hello',
+  HERO_TITLE_2: 'World',
+  HERO_TITLE_3: 'Serendipity',
+  HERO_TITLE_4: 'Release!!!',
   HERO_TITLE_5: 'CheatSheet 发布啦!!!',
   HERO_TITLE_LINK: 'https://github.com/JinSooo/CheatSheet',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: '必看精选', url: '/category/Web' },
-  HERO_CATEGORY_2: { title: '热门文章', url: '/category/Tool' },
-  HERO_CATEGORY_3: { title: '实用教程', url: '/category/Life' },
+  HERO_CATEGORY_1: { title: 'Web', url: '/category/Web' },
+  HERO_CATEGORY_2: { title: 'Tool', url: '/category/Tool' },
+  HERO_CATEGORY_3: { title: 'Life', url: '/category/Life' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
-  HERO_RECOMMEND_POST_TAG: '推荐',
+  HERO_RECOMMEND_POST_TAG: '',
   HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
